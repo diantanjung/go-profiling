@@ -6,7 +6,7 @@
 
 # Command for stand alone
 - Run the pprof 
-  $ go tool pprof app_name cpu.prof
+  \$ go tool pprof app_name cpu.prof
 - List Top CPU Usage
   $ top N, top -cum, top -sum, top -flat
 - Export graphical .svg
