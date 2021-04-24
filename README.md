@@ -22,7 +22,7 @@
   cpu             : $ go tool pprof app http://localhost:9090/debug/pprof/profile \
   heap            : $ go tool pprof app http://localhost:9090/debug/pprof/heap \
   goroutine       : $ go tool pprof app http://localhost:9090/debug/pprof/goroutine \
-  block           : $ go tool pprof app http://localhost:9090/debug/pprof/block \
+  block           : $ go tool pprof app http://localhost:9090/debug/pprof/block 
 - List Top CPU Usage\
   $ top N, top -cum, top -sum, top -flat
 - Export graphical .svg\
